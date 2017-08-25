@@ -24,6 +24,12 @@ module.exports = {
   devServer: {
     host: '127.0.0.1',
     port: 4040,
+  },
+  module: {
+    loaders: [{
+      test: /\.css$/,
+      loaders: ['style-loader','css-loader']
+    }]
   }
 
 };
