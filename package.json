@@ -21,11 +21,14 @@
   "homepage": "https://github.com/macagua/vuejs2-webpack-bootstrap#readme",
   "devDependencies": {
     "css-loader": "^0.28.5",
+    "file-loader": "^0.11.2",
     "style-loader": "^0.18.2",
+    "url-loader": "^0.5.9",
     "webpack": "^3.5.5",
     "webpack-dev-server": "^2.7.1"
   },
   "dependencies": {
+    "bootstrap": "^3.3.7",
     "vue": "^2.4.2"
   }
 }
