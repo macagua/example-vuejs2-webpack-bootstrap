@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --progress --display-error-details"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/macagua/vuejs2-webpack-bootstrap/issues"
   },
-  "homepage": "https://github.com/macagua/vuejs2-webpack-bootstrap#readme"
+  "homepage": "https://github.com/macagua/vuejs2-webpack-bootstrap#readme",
+  "devDependencies": {
+    "webpack": "^3.5.5"
+  },
+  "dependencies": {
+    "vue": "^2.4.2"
+  }
 }
